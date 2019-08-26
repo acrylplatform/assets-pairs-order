@@ -1,6 +1,6 @@
 # Utility for ordering pair of assets in (amount_asset, price_asset)
 
-![Build Status](https://api.travis-ci.org/platform/assets-pairs-order.svg?branch=master)
+![Build Status](https://api.travis-ci.org/acrylplatform/assets-pairs-order.svg?branch=master)
 
 ## Example:
 
