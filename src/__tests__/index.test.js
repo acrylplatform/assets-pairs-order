@@ -107,15 +107,15 @@ describe('orderPair utility', () => {
       'DNhP2zAH5HM1kdUSmxcBqs8RP4vvUgRFc1YgAKkfPmPD',
     ]);
   });
-  it('orders [USD, WAVES] in [WAVES, USD]', () => {
+  it('orders [USD, ACRYL] in [ACRYL, USD]', () => {
     expect(
-      orderPair('4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF', 'WAVES')
-    ).toEqual(['WAVES', '4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF']);
+      orderPair('4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF', 'ACRYL')
+    ).toEqual(['ACRYL', '4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF']);
   });
-  it('orders [WAVES, USD] in [WAVES, USD]', () => {
+  it('orders [ACRYL, USD] in [ACRYL, USD]', () => {
     expect(
-      orderPair('WAVES', '4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF')
-    ).toEqual(['WAVES', '4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF']);
+      orderPair('ACRYL', '4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF')
+    ).toEqual(['ACRYL', '4vN61TPpk5qKidGt5RYgd1To4nzxsoDyAL5buBk37hwF']);
   });
   it('works with custom predefinedList', () => {
     const customOrderPair = createOrderPair(['1', '2']);
